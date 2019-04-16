@@ -1,0 +1,22 @@
+{
+  "name": "web-auto-update",
+  "version": "0.0.0",
+  "description": "web端版本更新自动刷新",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Future-component/web-auto-update.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Future-component/web-auto-update/issues"
+  },
+  "homepage": "https://github.com/Future-component/web-auto-update#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
