@@ -1,6 +1,6 @@
 {
   "name": "web-auto-update",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "web端版本更新自动刷新",
   "main": "./src/index.js",
   "scripts": {
