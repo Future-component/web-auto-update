@@ -1,10 +1,11 @@
 {
   "name": "web-auto-update",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "web端版本更新自动刷新",
-  "main": "./src/index.js",
+  "main": "./build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -12,11 +13,16 @@
   },
   "author": "",
   "license": "ISC",
+  "files": [
+    "build"
+  ],
   "bugs": {
     "url": "https://github.com/Future-component/web-auto-update/issues"
   },
   "homepage": "https://github.com/Future-component/web-auto-update#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
   }
 }
